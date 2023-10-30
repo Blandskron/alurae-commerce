@@ -1,0 +1,234 @@
+
+article.encabezado {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    padding: 5px;
+    margin-top: -200px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+h3 {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 0px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.button_consolas {
+    border-color: #2A7AE4;
+    background: #2A7AE4;
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 160px;
+    padding: 10px;
+}
+
+button.button_consolas:hover {
+    background-color: #3b90ff;
+    color: white;
+}
+
+button.button_productos {
+    border-color: #2A7AE4;
+    background: #2A7AE4;
+    color: #ffffff;
+    width: 140px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 160px;
+    padding: 10px;
+}
+
+button.button_productos:hover {
+    background-color: #3b90ff;
+    color: white;
+}
+
+article.articulos {
+    margin-top: 30px;
+    padding: 20PX;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.contenedor {
+    background-color: #FFF;
+    display: grid;
+    justify-content: center;
+    grid-gap: 15px;
+    grid-template-columns: repeat(6, 150px);
+}
+
+.items {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items:hover {
+    background-color: #f3f3f3;
+}
+
+.items img {
+    width: 20px;
+    height: 40px;
+}
+
+.contenedor_2 {
+    background-color: #FFF;
+    display: grid;
+    justify-content: center;
+    grid-gap: 15px;
+    grid-template-columns: repeat(6, 150px);
+}
+
+.items {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items:hover {
+    background-color: #f3f3f3;
+}
+
+.items img {
+    width: 20px;
+    height: 40px;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 0px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+h5 {
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+h6 {
+    color: #2A7AE4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 0px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+article.iniciar_sesion {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    padding: 5px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    width: 420px;
+    height: 50px;
+    background: #FFF;
+    border: none;
+    border-radius: 2px;
+    text-align: left;
+    padding: 5px;
+}
+
+button {
+    border-color: #2A7AE4;
+    background: #2A7AE4;
+    color: #FFF;
+    width: 427px;
+    height: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b90ff;
+}
+
+button.button2 {
+    border-color: #2A7AE4;
+    background: #2A7AE4;
+    color: #FFF;
+    width: 160px;
+    height: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button.button2:hover {
+    background-color: #3b90ff;
+}
+
+article.hableconnosotros {
+    background: #EAF2FD;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;   
+    text-align: center;
+}
